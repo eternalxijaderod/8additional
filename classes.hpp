@@ -9,7 +9,7 @@ namespace ts
     };
     class Rectangle
     {
-    public
+    public:
         RectangleRectangle(Point A, Point B);
         ~Rectangle() {stdcout  Destructor's end  stdendl;}
         double Perimeter();
